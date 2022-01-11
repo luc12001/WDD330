@@ -1,6 +1,8 @@
 
-const links = [{ label: "Week1 notes", url: "/WDD330/Week 1/index.html" }];
-let list = document.getElementById("links");
+const links = [{ label: "Week 1 notes", url: "/WDD330/Week1/index.html"}, 
+                { label: "Week 2 notes", url: "/WDD330/Week2/index.html"}];
+
+                let list = document.getElementById("links");
 
 
 links.forEach((item) => {
