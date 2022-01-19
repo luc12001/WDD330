@@ -1,6 +1,7 @@
 
-const links = [{ label: "Week 1 notes", url: "/WDD330/Week1/index.html"}, 
-                { label: "Week 2 notes", url: "/WDD330/Week2/index.html"}];
+const links = [{ label: "Week 1 notes", url: "/Week1/index.html"}, 
+                { label: "Week 2 notes", url: "/Week2/index.html"},
+                { label: "Week 3 notes", url: "/Week3/index.html"}];
 
                 let list = document.getElementById("links");
 
