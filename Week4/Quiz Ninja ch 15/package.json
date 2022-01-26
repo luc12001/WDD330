@@ -1,0 +1,23 @@
+{
+  "name": "wdd330",
+  "version": "1.0.0",
+  "description": "Portfolio for WDD330",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --colors --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luc12001/WDD330.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luc12001/WDD330/issues"
+  },
+  "homepage": "https://github.com/luc12001/WDD330#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
