@@ -6,7 +6,6 @@ const links = [{ label: "Week 1 notes", url: "/WDD330//Week1/index.html"},
 
                 let list = document.getElementById("links");
 
-
 links.forEach((item) => {
 
     let li = document.createElement("li");
