@@ -7,28 +7,26 @@ module.exports = {
     output: {
         path: __dirname + '/dist',
         filename: 'bundle.min.js'
-},
+    },
 
-module: {
-    rules: [
-    {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-        loader: 'babel-loader',
-        options: {
-            presets: ['env' ]
-        }
-        }
-    }
-    ]
-},
-plugins: [
-    new BabiliPlugin(),
-    new webpack.DefinePlugin({
-    'process.env': {
-    'NODE_ENV': JSON.stringify('production')
-    }
-})
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['env']
+                }
+            }
+        }]
+    },
+    plugins: [
+        new BabiliPlugin(),
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+            }
+        })
     ]
 };
