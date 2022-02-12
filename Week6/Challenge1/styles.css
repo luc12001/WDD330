@@ -102,3 +102,8 @@ ul li.checked:before {
     background-color: tomato;
     color: white;
 }
+
+#buttons {
+    margin: auto;
+    width: 85%;
+}
