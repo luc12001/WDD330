@@ -1,6 +1,6 @@
 import {
     getJSON
-} from '/WDD330/Week10/Quake/utilities.js';
+} from '../utilities.js';
 // Quake Model
 export default class Quake {
     constructor() {

@@ -1,4 +1,4 @@
-import QuakesController from '/WDD330/Week10/Quake/QuakesController.js';
+import QuakesController from '../QuakesController.js';
 
 const routes = [{
         controller: new QuakesController('#quakeList'),
