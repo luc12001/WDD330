@@ -1,13 +1,13 @@
-import QuakesController from './QuakesController.js';
+import QuakesController from '/WDD330/Week10/Quake/QuakesController.js';
 
 const routes = [{
         controller: new QuakesController('#quakeList'),
-        file: 'views/quakeList.html',
+        file: '/WDD330/Week10/Quake/views/quakeList.html',
         label: 'Local Quakes'
     },
     {
         controller: new QuakesController('#quakeList'),
-        file: 'views/quakeList.html',
+        file: '/WDD330/Week10/Quake/views/quakeList.html',
         label: 'Yellowstone Quakes'
     }
 ];

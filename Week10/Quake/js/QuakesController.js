@@ -1,6 +1,6 @@
-import { getLocation } from './utilities.js';
-import Quake from './Quake.js';
-import QuakesView from './QuakesView.js';
+import { getLocation } from '/WDD330/Week10/Quake/utilities.js';
+import Quake from '/WDD330/Week10/Quake/Quake.js';
+import QuakesView from '/WDD330/Week10/Quake/QuakesView.js';
 
 // Quake controller
 export default class QuakesController {
